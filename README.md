@@ -1,4 +1,4 @@
-# MUSTer
+# muster_skill
 
 > **M.U.S.T. students finally have their own Skill.**
 >

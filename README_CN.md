@@ -1,4 +1,4 @@
-# MUSTer
+# muster_skill
 
 > **我们 MUSTer 终于有自己的 Skill 了。**
 >
