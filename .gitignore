@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Credentials — never commit
+.env
+.env.*
+!.env.example
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log

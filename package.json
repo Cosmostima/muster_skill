@@ -1,0 +1,29 @@
+{
+  "name": "muster_skill",
+  "version": "2.0.0",
+  "private": true,
+  "description": "MUST Moodle + timetable sync skill — courseware and schedule",
+  "license": "MIT",
+  "author": "Cosmostima",
+  "homepage": "https://github.com/Cosmostima/muster_skill#readme",
+  "bugs": "https://github.com/Cosmostima/muster_skill/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cosmostima/muster_skill.git"
+  },
+  "main": "scripts/muster_cli.js",
+  "type": "commonjs",
+  "scripts": {
+    "sync": "node scripts/muster_cli.js sync",
+    "schedule": "node scripts/muster_cli.js schedule",
+    "courses": "node scripts/muster_cli.js courses",
+    "course": "node scripts/muster_cli.js course",
+    "pending": "node scripts/muster_cli.js pending",
+    "files": "node scripts/muster_cli.js files",
+    "status": "node scripts/muster_cli.js status",
+    "test": "node scripts/muster_test.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
